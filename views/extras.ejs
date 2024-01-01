@@ -1,0 +1,8 @@
+<!-- from home -->
+
+<div class="">
+  <% for (var i = 0; i<postContent.length; i++){ %>
+    <h1> <%= postContent[i].title %> </h1>
+    <p> <%= postContent[i].content.substring(0, 100) + "..." %> </p>
+  <% } %>
+</div>
